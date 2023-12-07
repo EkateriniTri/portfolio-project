@@ -42,9 +42,14 @@ h1 {
   color: white;
   border-radius: 10px;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 30px;
   padding: 15px 30px;
+  transition: all 250ms ease-in-out;
+}
+.btn-branding:hover {
+  filter: contrast(80%);
+  transform: scale(1.5);
 }
 
 h2 {
@@ -52,8 +57,8 @@ h2 {
 }
 
 p {
-  font-weight: normal;
-  font-size: 17px;
+  font-weight: bold;
+  font-size: 20px;
   line-height: 30px;
 }
 
@@ -63,9 +68,16 @@ p {
   background: var(--primary-background-color);
   border-radius: 10px;
   font-size: 18px;
+  font-weight: bold;
   line-height: 27px;
   padding: 10px 15px;
+  transition: all 250ms ease-in-out;
 }
+.btn-branding-outline:hover {
+  filter: contrast(80%);
+  transform: scale(1.2);
+}
+
 .project-description {
   padding: 100px 50px;
 }
